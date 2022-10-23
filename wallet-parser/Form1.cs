@@ -40,7 +40,7 @@ namespace wallet_parser
                     throw new Exception();
                 }
 
-                //в случае если первую дату ввели более раннюю, меняем даты
+                //в случае если первую дату ввели более позднюю, меняем даты
                 if (start > end) {
                     Swap(ref start, ref end);
                 }
